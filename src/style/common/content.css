@@ -1,0 +1,36 @@
+.m-content{
+    width: calc(100% - 253px);
+    height: calc(100vh - 49px);
+    float: left;
+    padding: 0 16px;
+    /*  */
+    display: flex;
+    flex-direction: column;
+    background: rgb(244, 245, 247);
+}
+.m-content .m-title{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin: 12px 0;
+}
+.m-content-main{
+    flex: 1;
+    overflow: auto;
+    position: relative;
+    background:white;
+    padding: 15px;
+}
+
+/* search */
+.m-filter{
+ 
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-items: center;
+}
+.m-refresh{
+    display: flex;
+}

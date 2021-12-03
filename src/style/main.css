@@ -1,0 +1,37 @@
+@import url('./common/header.css');
+@import url('./common/navbar.css');
+@import url('./common/content.css');
+
+@import url('./common/common.css');
+@import url('./component/button.css');
+@import url('./component/input.css');
+/* @import url('./component/combobox.css');
+@import url('./component/dropdown.css'); */
+@import url('./component/table.css');
+@import url('./component/pagination.css');
+/* @import url('./component/chip-status.css');
+@import url('./component/toast.css');
+@import url('./component/checkbox.css');
+@import url('./component/dialog.css');
+@import url('./component/modal.css');
+@import url('./component/calendar.css');
+@import url('./component/loading.css'); */
+
+body{
+    font-family: Notosans-Regular;
+    font-size: 13px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Notosans-Bold';
+    src: url('../assets/fonts/notosans-bold.3ede5aff.woff2');
+}
+@font-face {
+    font-family: 'Notosans-Italic';
+    src: url('../assets/fonts/notosans-italic.1c1aaac9.woff2');
+}
+@font-face {
+    font-family: 'Notosans-Semibold';
+    src: url('../assets/fonts/notosans-semibold.df3e6dc4.woff2');
+}

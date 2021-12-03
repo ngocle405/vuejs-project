@@ -1,0 +1,62 @@
+.m-navbar{
+    width: 175px;
+    height: 100vh;
+    background-color: #ffffff;
+    border-right: 1px solid #e5e5e5;
+    float: left;
+    background-color: #393a3d;
+}
+.m-navbar .m-nav-top{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    
+    margin-left: 20px;
+}
+.m-navbar .m-toggle{
+    width: 20px;
+    color: white;
+    float: left;
+    
+}
+
+
+.m-logo img{
+    height: 40;
+    width: 90px;
+    padding: 0px 0;
+}
+/* ====== menu ======== */
+.m-navbar .m-menu ul{
+    background-color: #393a3d;
+    padding-left: 0;
+}
+
+.m-navbar .m-icon-submenu{
+    margin-right: 10px;
+    font-size: 14px;
+    color: rgb(170, 167, 167);
+}
+.m-navbar .m-menu ul li{
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    padding: 0 16px;
+    
+}
+.m-navbar .m-menu ul li a{
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+    color: #e5e5e5;
+    /* color: #000000; */
+}
+.m-navbar .m-menu ul li a img{
+    width: 20px;
+    padding: 12px 10px 12px 0;
+    color: #e5e5e5;
+}
+.m-navbar .m-menu ul li:hover{
+     background-color: rgb(86, 87, 88);
+    cursor: pointer;
+}

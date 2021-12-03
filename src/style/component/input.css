@@ -1,0 +1,30 @@
+.m-content-search{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-items: center;
+}
+.m-input {
+    height: 31px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(190, 190, 190);
+    padding-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.m-input-search{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 25px;
+    border: 1px solid rgb(196, 193, 193);
+    height: 24px;
+    position: relative;
+    background-image: url('../../assets/icon/search.png');
+}
+.m-combobox-input{
+    border: 1px solid rgb(196, 193, 193);;
+outline: none;
+}

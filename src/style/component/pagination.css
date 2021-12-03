@@ -1,0 +1,19 @@
+/*Code phần phân trang*/
+.m-navigation{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.m-paging-center{
+    display: flex;
+}
+.m-paging-number{
+    display: flex;
+    align-self: center;
+    text-align: center;
+}
+.m-page-item{
+    padding: 5px;
+    width: 20px;
+}
