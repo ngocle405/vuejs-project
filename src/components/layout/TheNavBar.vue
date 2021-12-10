@@ -11,20 +11,20 @@
         <div class="m-menu">
             <ul>
                 <li>
-                    <a href="#">
+                    <router-link to="/employee">
                         <div class="m-icon-submenu">
                             <i class="fas fa-chart-pie"></i>
                         </div>
-                        <div class="m-name-submenu">Tổng quan</div>
-                    </a>
+                        <div class="m-name-submenu">nhân viên</div>
+                    </router-link>
                 </li>
                 <li>
-                    <a href="#">
+                    <router-link to="/customer">
                         <div class="m-icon-submenu">
                             <i class="fas fa-archive"></i>
                         </div>
-                        <div class="m-name-submenu">Tiền mặt</div>
-                    </a>
+                        <div class="m-name-submenu">Khách hàng</div>
+                    </router-link>
                 </li>
                 <li>
                     <a href="#">

@@ -28,3 +28,27 @@ button.m-btn.m-btn-icon.m-btn-refresh{
     height: 24px;
     padding: 0;
 }
+
+/* css cho button xóa với nhân bản */
+.data-list-row{
+    color: rgb(43, 42, 42);
+    position: absolute;
+    border: 1px solid rgb(213, 213, 213);
+    margin-top: 5px;
+    right: 25px;
+    width: 140px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px;
+    z-index: 100;
+    display: none;
+}
+.data-item{
+    height: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.data-item:hover{
+    background-color: rgb(232, 233, 237);
+    color: rgb(52, 208, 104);
+    cursor: pointer;
+}
