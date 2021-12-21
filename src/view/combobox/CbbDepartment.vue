@@ -1,17 +1,13 @@
 <template>
   <div class="scombobox">
-    <input
-      type="text"
-      class="s-combobox-input"
-      v-model="value"
-    />
+    <input type="text" class="s-combobox-input" :value="showText(value)" />
     <div @click="showData" class="s-combobox-buton">
       <i class="fas fa-sort-down"></i>
     </div>
     <div class="s-combobox-data" v-show="isShow">
       <div
         class="s-combobox-item"
-        value="1"
+      
         v-for="(option, index) in options"
         :key="index"
         @click="select(option)"
@@ -24,12 +20,13 @@
 
 <script>
 export default {
-    /**
+  /**
    * phần này tham khảo chiến
    */
   props: {
     options: Array,
     value: String,
+    
   },
   data() {
     return {
@@ -50,8 +47,16 @@ export default {
      * Author: LT Ngoc (10/12/2021)
      */
     select(option) {
-      this.isShow = !this.isShow;
+      this.isShow = false;
       this.$emit("select", option);
+    },
+
+    showText(id) {
+      for (let i = 0; i < this.options.length; i++) {
+        if (id == this.options[i].DepartmentId)
+          return this.options[i].DepartmentName;
+      }
+      return "";
     },
   },
 };

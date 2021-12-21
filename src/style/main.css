@@ -16,8 +16,12 @@
 @import url('./component/dialog.css');
 
 @import url('./component/calendar.css');
-@import url('./component/loading.css'); */
+*/
 @import url('./component/modal.css');
+@import url('./common/loading.css'); 
+@import url('./common/popup.css');
+@import url('./common/icon.css');
+@import url('./common/contextMenu.css');
 body{
     font-family: Notosans-Regular;
     font-size: 13px;

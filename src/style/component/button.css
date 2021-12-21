@@ -6,12 +6,15 @@ button{
 }
 .m-btn{
     height: 30px;
-    border-radius: 4px;
+    border-radius: 3px;
     border:none;
+    padding: 6px 16px;
+   
+    
     background-color: rgb(41, 162, 25);
     color: white;
     cursor: pointer;
-    padding-left: 15px;
+    /* padding-left: 15px; */
 }
 .m-btn .m-btn-add{
     margin-left: 5px;

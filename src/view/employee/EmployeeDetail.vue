@@ -58,8 +58,8 @@
               <label for="">Đơn vị <span>*</span></label>
               <CbbDepartment
                 @select="selectOptionDepartment"
-                :value="value"
                 :options="Department"
+                v-model="employee.DepartmentId"
               />
             </div>
           </div>
@@ -269,6 +269,7 @@ export default {
     return {
       value: "", //lấy ra name
       Department: [],
+      s:""
     };
   },
   props: {
@@ -282,7 +283,8 @@ export default {
      */
     btnCloseOnClick() {
       //emit gọi sự kiện showdialog,từ con gọi sang cha
-      this.$emit("showDialog", false);
+      //this.$emit("showDialog", false);
+       this.$emit("closeForm");
     },
     /**
      * sự kiện lưu dữ liệu (lê thanh ngọc /9/12/2021)
